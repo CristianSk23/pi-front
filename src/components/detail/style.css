@@ -1,0 +1,75 @@
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 95vw; 
+  height: 100vh;
+  padding: 20px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+ 
+  font-size: 50px;
+}
+
+.detailContent {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.2);
+  padding: 20px;
+  font-family: "PT Sans Narrow", sans-serif; /*Font para el titulo*/
+}
+
+.detailImage {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border: 5px solid #1f1f1f; /* Borde alrededor de la imagen */
+  border-radius: 50%; /* Forma circular para la imagen */
+}
+
+.detailDescription {
+  margin: 20px;
+  text-align: left;
+  background-color: #1f1f1f; /* Color de fondo oscuro para la descripción */
+  border-radius: 5px;
+  padding: 20px;
+  width: 1620px;
+  border: 1px solid #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+
+.detailContainer h2 {
+  font-size: 50px;
+  margin: 10px 0;
+  border: 30px;
+  font-family: "Passion One", sans-serif;
+}
+.detailContainer h3 {
+  font-size: 20px;
+  margin-top: 10px;
+ 
+}
+.detailContainer h4 {
+  font-size: 50px;
+  margin-top: 10px;
+ 
+}
+
+.detailContainer p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#styleP{
+  font-size: 30px;
+  margin: 10px 0;
+}
+.contenBtnDetail{
+  margin-top: -60px;
+}
